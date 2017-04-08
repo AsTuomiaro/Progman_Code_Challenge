@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            var airHandlerDevice = new AirHandlerDevice();
+            var airHandlerDevice = new AirHandlingDevice();
 
             airHandlerDevice.fan1.ProductCode = "234563456";
             airHandlerDevice.fan1.Description = "Thid is a fan. Yay!";

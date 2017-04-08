@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace ProgmanCodeChallenge
 {
-    public class AirHandlerDevice : Part
+    public class AirHandlingDevice : Part
     {
         public Fan fan1, fan2;
         public Filter filter1, filter2;
@@ -14,7 +14,7 @@ namespace ProgmanCodeChallenge
         private Part[] partList;
         private IEnumerable<Part> query;
 
-        public AirHandlerDevice()
+        public AirHandlingDevice()
         {
             fan1 = new Fan();
             fan2 = new Fan();
